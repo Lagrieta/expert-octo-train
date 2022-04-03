@@ -20,7 +20,7 @@ function setup() {
   
   Logotipo = createSprite(width/2, height/2, 50,50);
   Logotipo.addImage(logotipoImg);
-  Logotipo.scale = width/800;
+  Logotipo.scale = width/1000;
   
   CombinadaG = new Group();
   EspecialG = new Group();
@@ -73,7 +73,7 @@ function COMBINADA() {
   comb.addImage(CombinadaImg);
   comb.velocityY = -3;
   comb.lifetime = 250;
-  comb.scale = width/2000;
+  comb.scale = width/4000;
   comb.bounceOff(Logotipo);
   CombinadaG.add(comb);
 }
@@ -83,7 +83,7 @@ function ESPECIAL() {
   esp.addImage(MexicanaImg);
   esp.velocityY = -3;
   esp.lifetime = 250;
-  esp.scale = width/2000;
+  esp.scale = width/4000;
   EspecialG.add(esp);
 }
 
@@ -92,7 +92,7 @@ function NAPOLITANA() {
   nap.addImage(NapolitanaImg);
   nap.velocityY = -3;
   nap.lifetime = 250;
-  nap.scale = width/2000;
+  nap.scale = width/4000;
   NapolitanaG.add(nap);
 }
 
@@ -101,7 +101,7 @@ function POLLO() {
   poll.addImage(PolloImg);
   poll.velocityY = -3;
   poll.lifetime = 250;
-  poll.scale = width/2000;
+  poll.scale = width/4000;
   PolloG.add(poll);
 }
 
@@ -110,7 +110,7 @@ function PORTENIA() {
   port.addImage(PorteniaImg);
   port.velocityY = -3;
   port.lifetime = 250;
-  port.scale = width/2000;
+  port.scale = width/4000;
   PorteniaG.add(port);
 }
 
@@ -119,7 +119,7 @@ function MEXICANA() {
   mex.addImage(CombinadaImg);
   mex.velocityY = -3;
   mex.lifetime = 250;
-  mex.scale = width/2000;
+  mex.scale = width/4000;
   MexicanaG.add(mex);
 }
 
@@ -128,6 +128,6 @@ function ESPINACA() {
   espin.addImage(CombinadaImg);
   espin.velocityY = -3;
   espin.lifetime = 250;
-  espin.scale = width/2000;
+  espin.scale = width/4000;
   espinacaG.add(espin);
 }
